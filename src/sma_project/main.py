@@ -18,8 +18,7 @@ def run():
     Run the crew.
     """
     inputs = {
-        'topic': 'AI LLMs',
-        'current_year': str(datetime.now().year)
+        'raw_note': '62-year-old patient with a history of diabetes. Brain MRI reveals a transient ischemic attack (TIA) in the left middle cerebral artery territory. No associated hemorrhage.',
     }
     
     try:
